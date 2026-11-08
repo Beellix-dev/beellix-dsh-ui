@@ -1,23 +1,63 @@
 # Beelli X UI
 
-**Beelli X 界面增强**是为 Windows 上的 DeepSeek Harness NEXT 做的桌面界面插件。你可以按原工作区找回归档聊天、给每只桌宠上传自己的动作，也可以统一调整侧栏、对话区和右侧面板的外观。
+**Beelli X UI** 为 Windows 上的 DeepSeek Harness NEXT 提供统一的设置和桌面外观。换一套皮肤、养自己的桌宠、定制启动动画，或从模型页接入常用服务。
 
 **版本 0.1.1 · MIT · 作者 Beellix-dev**
 
-## 功能亮点
+![Beelli X UI 桌面、磨砂面板和侧栏控件](docs/images/sidebar.png)
 
-- **按工作区管理归档聊天**。在「设置 → 已归档的聊天」按原工作区浏览和搜索。可以取消归档，也可以确认后单条或批量删除本地聊天记录。列表当场更新，客户端继续运行。
-- **给每只桌宠配置自己的动作**。上传动图作为宠物的默认动作，可以保留多只宠物并切换当前使用的那只。其他动作按宠物分别添加，右键点桌宠即可播放，播完回到默认动作。
-- **让壁纸和界面融在一起**。用内置插画或导入图片、MP4，分别调整侧栏和右侧面板的磨砂与透明度。对话区用一块连续的半透明阅读区域，便于读长消息。
-- **在插件页直接切换市场**。已安装插件按官方和第三方分开，市场可在同一页切换，也能直接添加自定义目录。侧栏控件可按需显隐和排序。
+## 设置怎么组织
 
-**English** · A desktop UI extension for DeepSeek Harness NEXT on Windows. Browse and restore archived chats by workspace, confirm local deletion individually or in batches, give each desktop pet its own uploaded animations, and switch plugin catalogs on a single page. Wallpaper and frosted panels can be customized together.
+左栏负责选分类，顶部标签负责切换同类设置。可以用「查找设置」按分类、子页或设置项名称定位。窄窗口用下拉选择分类。
 
-![皮肤、磨砂面板和侧栏控件](docs/images/sidebar.png)
+| 左栏入口 | 右侧内容 |
+| --- | --- |
+| 常规 | 常规、对话与输入、快捷键、通知 |
+| 外观 | 主题、皮肤、字体、吉祥物、效果 |
+| 模型 | 查看已添加的连接、选厂商或添加自定义连接。提供模型配置的插件会显示在「插件模型」标签 |
+| 网络、权限、数据 | 分别进入对应的 DSH 设置 |
+| 维护 | 诊断与维护、运行环境、关于与更新 |
+| 插件配置 | 查看已加载的插件配置，插件提供的设置入口会在这里显示 |
+| 已归档的聊天 | 按原工作区查看归档，支持搜索、恢复和删除 |
+
+DSH 的模型、网络和权限等设置继续通过宿主接口读写。皮肤、桌宠和启动动画使用 Beelli X UI 自己的配置。
+
+## 功能展示
+
+### 皮肤 · 设置 → 外观 → 皮肤
+
+直接预览内置插画，或把图片、MP4 导入「我的皮肤」。可选择壁纸覆盖左侧栏、聊天区和右侧工作台中的哪些区域，在「主题」调整配色、磨砂与透明度，再把搭配保存为自己的皮肤方案。
+
+![皮肤库与壁纸覆盖区域设置](docs/images/settings-skins.png)
+
+### 宠物 · 设置 → 外观 → 吉祥物
+
+上传一段动态 WebP 或 GIF 就能添加宠物，这段动图会作为它的默认动作。可以保留多只、选一只显示，给每只宠物添加各自的动作。右键点桌宠即可选动作，播放完会回到默认动作。
+
+![宠物库里切换桌宠、预览默认动作和添加其他动作](docs/images/settings-pets.png)
+
+### 效果 · 设置 → 外观 → 效果
+
+可开启内置启动动画，也可以上传 MP4 或 GIF。选择 1、2、3 或 5 秒，在设置里先预览，启用后下次启动播放，也可以在播放时跳过。
+
+![启动动画开关、素材上传、播放时长和预览](docs/images/settings-effects.png)
+
+### 模型 · 设置 → 模型
+
+可选 DeepSeek、OpenAI、Anthropic 等厂商预设，也能填写自定义服务地址和接口协议。配置后可从服务获取型号并勾选需要的模型，也可以手动添加模型 ID。
+
+![模型连接的服务地址、接口协议和型号选择](docs/images/settings-models.png)
+
+### 归档聊天和插件市场
+
+- **归档聊天**可按原工作区浏览和搜索，取消归档会恢复到原工作区。确认删除后清理本地聊天记录，支持单条和批量删除，列表即时更新。
+- **插件市场**可在同一页切换和添加。已安装的官方插件与第三方插件分开查看，侧栏控件也能按需显隐和排序。
 
 ![按原工作区分组的归档聊天](docs/images/archives.png)
 
-![外观设置](docs/images/settings.png)
+五张设置演示统一使用深色主题和「樱雨之城」壁纸。桌宠、模型和归档内容均为示例。
+
+**English** · Beelli X UI brings searchable settings to DSH NEXT on Windows. Appearance groups themes, skins, fonts, pets, and effects, while Models has its own page. Use images or MP4 wallpaper, adjust frosted panels, and save skin presets. Switch between pets and upload default and extra animations for each one. Preview, time, or skip MP4 and GIF startup animations. Add model connections from provider presets or a custom endpoint, fetch and select models, or enter model IDs manually. You can also restore or bulk-delete archived chats by workspace and switch or add plugin catalogs on the same page.
 
 ## 安装
 
