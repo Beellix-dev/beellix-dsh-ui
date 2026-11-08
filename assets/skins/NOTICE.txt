@@ -1,0 +1,71 @@
+The builtin gallery uses three AI-generated original illustrations: sakura-orbit.png, neon-harbor.png and pearl-current.png. Generated with the built-in image_gen.imagegen tool on 2026-11-04. Exact prompts and native 1672x941 dimensions are recorded in original-art.json and PNG metadata. No third-party character artwork is included in these illustrations. Their pixels are not upscaled or claimed to be 4K.
+
+The following six CC BY 4.0 photographic skins remain bundled only so existing saved configurations keep working. They are not displayed in the new builtin gallery. JPEG visual pixels unchanged with provenance comments added; WebP previews and origin sidecars from prior internal selection. sha256 entries identify the original downloads before metadata annotations. Source and author per entry below. No endorsement implied.
+[
+  {
+    "id": "18",
+    "name": "星云深空",
+    "src": "/dsh-web-gui/skins/18.jpg",
+    "preview": "/dsh-web-gui/skins/18-preview.webp",
+    "author": "ESO/IDA/Danish 1.5 m/R.Gendler, J-E. Ovaldsen, C. Thöne, and C. Feron.",
+    "source": "https://commons.wikimedia.org/wiki/File:ESO_-_The_Carina_Nebula_(by).jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha256": "cbb586ee24c2ee0c0c9793af1c4a0ef02e358a5ce3c1ab3cd368ef954c6e0073"
+  },
+  {
+    "id": "02",
+    "name": "雪峰冰湖",
+    "src": "/dsh-web-gui/skins/02.jpg",
+    "preview": "/dsh-web-gui/skins/02-preview.webp",
+    "author": "Vyacheslav Argenberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountains_in_snow,_Mountain_lake,_Chola_Valley,_Nepal,_Himalayas.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha256": "177d0119a6a3d78c1bfac9dd6e914c961f34a134d09e4c17038dbcc576b073a2"
+  },
+  {
+    "id": "01",
+    "name": "高山镜湖",
+    "src": "/dsh-web-gui/skins/01.jpg",
+    "preview": "/dsh-web-gui/skins/01-preview.webp",
+    "author": "Vyacheslav Argenberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ergaki,_Mountain_lake_Skazka,_Rock_formations,_Sayan_Mountains,_Russia.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha256": "bb240e28dd2efadc4043f973cbb8f3a56339777eea4f24a527e9ae8048697436"
+  },
+  {
+    "id": "04",
+    "name": "多洛米蒂晨光",
+    "src": "/dsh-web-gui/skins/04.jpg",
+    "preview": "/dsh-web-gui/skins/04-preview.webp",
+    "author": "Dmitry Djouce",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunrise_near_Rifugio_Mulaz_-_Dolomites,_Italy_-_2025.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha256": "5ec817cd6cefcd93101515cb29b68b5e383a33a3e52035c16f530153d3f6abc2"
+  },
+  {
+    "id": "12",
+    "name": "海蚀崖壁",
+    "src": "/dsh-web-gui/skins/12.jpg",
+    "preview": "/dsh-web-gui/skins/12-preview.webp",
+    "author": "Vyacheslav Argenberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Olkhon_Island,_Capes,_cliffs_at_sunset,_Lake_Baikal,_Russia.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha256": "b601baa894607612f9f5a788e57ef8a901512e5310db2534ce93de86c59944fe"
+  },
+  {
+    "id": "13",
+    "name": "大西洋落日",
+    "src": "/dsh-web-gui/skins/13.jpg",
+    "preview": "/dsh-web-gui/skins/13-preview.webp",
+    "author": "Jakub Hałun",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_sunset_over_Eyjafj%C3%B6r%C3%B0ur_in_Svalbar%C3%B0sstrandarhreppur_commune,_Iceland,_20240715_2237_1028.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha256": "88cc55384f3dfe636f1090fae6ed59e54cc88a2db1fdde5ae5cd3c4f7d6f1ccd"
+  }
+]

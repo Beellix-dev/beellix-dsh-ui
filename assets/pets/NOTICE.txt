@@ -1,0 +1,4 @@
+Original Beelli X companion artwork, generated specifically for this project using imagegen on 2026-11-04.
+Original asset: beelli.png. Prompt: a small friendly rounded pebble-body robot helper, deep violet shell with orange accents, full body, transparent background, no text or existing character references.
+The shipped image is used unchanged. No third-party wallpaper or pet artwork is bundled.
+Built-in abstract wallpaper recipes in settings-skin-patterns.mjs are independently authored code-native geometry and color compositions.

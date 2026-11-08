@@ -1,0 +1,26 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "date": "2026-11-04",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "note": "AI-generated original illustrations for DSH Web GUI. No third-party character artwork or Wallpaper Engine source is bundled in these three assets. Full generation prompts are embedded in PNG metadata. Native output size; no claim of 4K.",
+  "assets": [
+    {
+      "id": "sakura-orbit",
+      "file": "sakura-orbit.png",
+      "prompt": "Create one original premium anime desktop wallpaper for a Chinese AI desktop application. Wide landscape 16:9 composition, ideally 2560x1440 or highest native landscape resolution. Original adult woman with short silver-blue hair and a simple navy futuristic jacket on the far right third, calmly looking across a rain-washed rooftop garden at twilight, cherry blossoms, distant violet city lights. Exquisite hand-painted anime background, refined cinematic light, delicate ink contours, restrained lavender, indigo and rose. Central 55 percent is atmospheric open sky and softly rendered distant city for readable overlay interface. Left fifth unobtrusive dark architecture. Illustration fills entire image edge to edge. No lettering, no logos, no interface, no typography, no watermark, no familiar copyrighted character, no collage. This is a finished authored wallpaper asset, not a screenshot."
+    },
+    {
+      "id": "neon-harbor",
+      "file": "neon-harbor.png",
+      "prompt": "Create one original premium cinematic science-fiction city desktop wallpaper. Wide landscape 16:9 composition, ideally 2560x1440 or highest native landscape resolution. Nighttime futuristic coastal metropolis seen from a high terrace with quiet reflecting water, refined cyan and teal lights, occasional amber architectural accents, enormous moon behind layered clouds. Detailed high-end environment concept art with nuanced lighting and atmospheric perspective, elegant rather than busy. Architectural highlights concentrated at far edges and bottom quarter; central 55 percent is calm dark-blue sky and distant silhouettes where an interface will sit. Edge to edge illustration, no text, logos, watermark, characters, UI, collage or frame. Finished wallpaper asset."
+    },
+    {
+      "id": "pearl-current",
+      "file": "pearl-current.png",
+      "prompt": "Create one original premium abstract desktop wallpaper, wide landscape 16:9 ideally 2560x1440 or highest native landscape resolution. Sculptural pearlescent silk-like glass ribbons flow diagonally from lower left toward upper right around a large airy quiet center, with subtle lavender, pale icy blue, soft silver and a restrained peach highlight. Beautiful photographic macro material realism, precise reflections, smooth physically plausible luminous surfaces, soft studio daylight, luxurious contemporary operating system wallpaper aesthetic. Graceful asymmetrical shape, not random gradient blobs, not a mesh or noisy texture. Keep center calm and light for interface readability. Entire image edge to edge. No text, logo, watermark, UI, frame or collage."
+    }
+  ]
+}

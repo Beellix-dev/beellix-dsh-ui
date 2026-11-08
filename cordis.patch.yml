@@ -1,0 +1,14 @@
+- id: ui-settings-general
+  disabled: true
+- id: ui-sidebar
+  disabled: true
+- id: session-controller
+  isolate:
+    agents: beellix-archive-session-controller
+- insert:
+    - id: dsh-web-gui
+      name: '@beellix-ai/dsh-web-gui'
+    - id: beellix-archive-agent-scope
+      name: '@beellix-ai/dsh-web-gui/archive-agent-scope'
+      isolate:
+        agents: beellix-archive-session-controller
