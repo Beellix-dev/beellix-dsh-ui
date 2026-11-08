@@ -1,29 +1,30 @@
 # Beelli X UI
 
-**Beelli X 界面增强**把外观、侧栏、插件市场和归档聊天整合进 DeepSeek Harness 桌面界面。可以按自己的习惯配置工作区，也可以在同一个窗口整理和恢复归档对话。
+**Beelli X 界面增强**是为 Windows 上的 DeepSeek Harness NEXT 做的桌面界面插件。你可以按原工作区找回归档聊天、给每只桌宠上传自己的动作，也可以统一调整侧栏、对话区和右侧面板的外观。
 
-Beelli X UI adds unified settings, customizable skins and sidebar controls, market switching, and archived-chat management to DeepSeek Harness desktop.
+**版本 0.1.1 · MIT · 作者 Beellix-dev**
 
-**版本 0.1.1 · MIT · 作者 Beellix-dev。** 适用于 Windows DSH NEXT，由第三方独立维护。
+## 功能亮点
 
-## 安装与使用
+- **按工作区管理归档聊天**。在「设置 → 已归档的聊天」按原工作区浏览和搜索。可以取消归档，也可以确认后单条或批量删除本地聊天记录。列表当场更新，客户端继续运行。
+- **给每只桌宠配置自己的动作**。上传动图作为宠物的默认动作，可以保留多只宠物并切换当前使用的那只。其他动作按宠物分别添加，右键点桌宠即可播放，播完回到默认动作。
+- **让壁纸和界面融在一起**。用内置插画或导入图片、MP4，分别调整侧栏和右侧面板的磨砂与透明度。对话区用一块连续的半透明阅读区域，便于读长消息。
+- **在插件页直接切换市场**。已安装插件按官方和第三方分开，市场可在同一页切换，也能直接添加自定义目录。侧栏控件可按需显隐和排序。
 
-在 DSH 的「插件 → 添加插件」中导入维护者提供的预构建 `.tgz` 安装包。宿主要求重启时，先保存当前工作，再正常重启。不要同时启用其他替换设置页或侧栏的 UI 插件。
+**English** · A desktop UI extension for DeepSeek Harness NEXT on Windows. Browse and restore archived chats by workspace, confirm local deletion individually or in batches, give each desktop pet its own uploaded animations, and switch plugin catalogs on a single page. Wallpaper and frosted panels can be customized together.
 
-包名为 `@beellix-ai/dsh-web-gui`。安装包与版本说明见 [GitHub Releases](https://github.com/Beellix-dev/beellix-dsh-ui/releases)。
+![皮肤、磨砂面板和侧栏控件](docs/images/sidebar.png)
 
-- **外观**。在「更多 → 设置 → 外观」调整主题、字体和面板透明度，预览内置插画，或导入图片、MP4 和 JSON 皮肤方案。
-- **侧栏和插件市场**。按需显示、隐藏或排列侧栏控件，在同一个插件市场页面切换来源或添加自定义目录。
-- **归档聊天**。在设置末尾查看按工作区分组的归档，可搜索、排序、取消归档。确认后可单条或批量删除本地对话，列表随即更新，操作期间客户端继续运行。
-- **桌宠**。把动图添加为宠物的默认动作，切换当前桌宠，为每只宠物添加独立动作，并从桌宠右键菜单播放。
+![按原工作区分组的归档聊天](docs/images/archives.png)
 
-![外观与侧栏](docs/images/sidebar.png)
+![外观设置](docs/images/settings.png)
 
-![统一设置](docs/images/settings.png)
+## 安装
 
-![已归档的聊天](docs/images/archives.png)
+- **预构建包**。从 [GitHub Release](https://github.com/Beellix-dev/beellix-dsh-ui/releases/tag/v0.1.1) 下载 `beellix-dsh-ui-0.1.1.tgz`，在 DSH 的「插件 → 添加插件」中导入。
+- **npm**。在 DSH 的「添加插件」中输入 `@beellix-ai/dsh-web-gui`。如果镜像源提示找不到包，在「安装源」中改用 npm 官方注册表 `https://registry.npmjs.org/`，或导入上面的预构建包。
 
-截图来自同版本隔离开发客户端的已验界面，不包含用户业务资料。
+宿主提示重启时，先保存当前工作再正常重启。建议同一时间只启用一个接管设置页或侧栏的界面插件。
 
 ## 兼容与边界
 
